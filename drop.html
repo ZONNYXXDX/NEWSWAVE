@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Selector with Suggestions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .skill-selector {
+            width: 300px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            position: relative;
+        }
+
+        #skill-input {
+            flex: 1;
+            border: none;
+            outline: none;
+        }
+
+        #suggestions {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 40px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #fff;
+            max-height: 150px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        #suggestions li {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #suggestions li:hover {
+            background-color: #f0f0f0;
+        }
+
+        .skill-tag {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+        }
+
+        .skill-tag span {
+            margin-right: 10px;
+        }
+
+        .skill-tag button {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="skill-selector">
+        <input type="text" id="skill-input" placeholder="Type a skill and press Enter">
+        <ul id="suggestions"></ul>
+        <div id="selected-skills"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const skillInput = document.getElementById('skill-input');
+        const suggestionsList = document.getElementById('suggestions');
+        const selectedSkillsContainer = document.getElementById('selected-skills');
+
+        const skills = ['JavaScript', 'HTML', 'CSS', 'PHP', 'MySQL', 'React', 'Node.js', 'Python', 'Java', 'C#'];
+
+        skillInput.addEventListener('input', function () {
+            const query = skillInput.value.trim().toLowerCase();
+            if (query) {
+                const filteredSkills = skills.filter(skill => skill.toLowerCase().includes(query));
+                showSuggestions(filteredSkills);
+            } else {
+                suggestionsList.style.display = 'none';
+            }
+        });
+
+        skillInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                const skill = skillInput.value.trim();
+                if (skill) {
+                    addSkill(skill);
+                    skillInput.value = '';
+                    suggestionsList.style.display = 'none';
+                }
+            }
+        });
+
+        suggestionsList.addEventListener('click', function (e) {
+            if (e.target.tagName === 'LI') {
+                addSkill(e.target.textContent);
+                skillInput.value = '';
+                suggestionsList.style.display = 'none';
+            }
+        });
+
+        function showSuggestions(filteredSkills) {
+            suggestionsList.innerHTML = '';
+            filteredSkills.forEach(skill => {
+                const suggestionItem = document.createElement('li');
+                suggestionItem.textContent = skill;
+                suggestionsList.appendChild(suggestionItem);
+            });
+            suggestionsList.style.display = 'block';
+        }
+
+        function addSkill(skill) {
+            const skillTag = document.createElement('div');
+            skillTag.classList.add('skill-tag');
+
+            const skillSpan = document.createElement('span');
+            skillSpan.textContent = skill;
+
+            const removeButton = document.createElement('button');
+            removeButton.textContent = 'x';
+            removeButton.addEventListener('click', () => {
+                selectedSkillsContainer.removeChild(skillTag);
+            });
+
+            skillTag.appendChild(skillSpan);
+            skillTag.appendChild(removeButton);
+            selectedSkillsContainer.appendChild(skillTag);
+        }
+    });
+
+</script>
+
+</html>

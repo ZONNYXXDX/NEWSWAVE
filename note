@@ -1,0 +1,142 @@
+Thiruvananthapuram: ["Attingal", "Chirayinkeezhu", "Nedumangad", "Varkala", "Neyyattinkara"],
+            Kollam: ["Karunagappally", "Kottarakkara", "Punalur"],
+            Pathanamthitta: ["Adoor", "Thiruvalla", "Ranni", "Mallappally"],
+            Alappuzha: ["Chengannur", "Cherthala", "Haripad", "Mavelikkara", "Kuttanad", "Ambalappuzha"],
+            Kottayam: ["Changanassery", "Kanjirappally", "Meenachil", "Vaikom"],
+            Idukki: ["Devikulam", "Peerumade", "Udumbanchola", "Thodupuzha"],
+            Ernakulam: ["Aluva", "Kochi", "Kothamangalam", "Muvattupuzha", "Kunnathunadu"],
+            Thrissur: ["Chavakkad", "Irinjalakuda", "Kodungallur", "Chalakudy", "Mukundapuram"],
+            Palakkad: ["Chittur", "Ottapalam", "Palakkad", "Alathur"],
+            Malappuram: ["Manjeri", "Nilambur", "Perinthalmanna", "Eranad", "Tirur"],
+            Kozhikode: ["Koyilandy", "Vadakara"],
+            Wayanad: ["Mananthavady", "SulthanBathery", "Vythiri"],
+            Kannur: ["Thalassery", "Payyannur", "Iritty"],
+            Kasaragod: ["Kanhangad", "Hosdurg", "Manjeshwaram"],
+
+
+
+
+            Attingal: ["Anchuthengu", "Andoorkonam", "Attingal", "Azhoor", "Chirayinkeezhu", "Karakulam", "Keezhattingal", "Kilimanoor", "Madavoor", "Manampur", "Mangalapuram", "Nagaroor", "Nellanad", "Ottoor", "Pangode", "Pulimath", "Sarkara", "Thannimoodu", "VakkomVarkala"],
+            Chirayinkeezhu: ["Alamcode", "Anjuthengu", "Avanavanchery", "Chirayinkeezhu", "Edakkode", "Kadakkavoor", "Kadakavoor", "Kizhuvilam", "Manamboor", "Nagaroor", "Ottoor", "Pazhayakunnummel", "Vakkom"],
+            Nedumangad: ["Anad", "Aryanad", "Aruvikkara", "Karakulam", "Kattakkada", "Kottoor", "Mannoor", "Mannoorkara", "Mannoorkonam", "Nedumangad", "Panavoor", "Pangode", "Pullampara", "Thekkada", "Tholicode", "Vellanad", "Vembayam"],
+            Varkala: ["Aynimoodu", "Cherunniyoor", "Chemmaruthy", "Edava", "Elakamon", "Kadakavoor", "Kallambalam", "Manambur", "Navaikulam", "Ottoor", "Vettoor", "Vadasserikonam", "Varkala"],
+            Neyyattinkara: ["Amboori", "Athiyannoor", "Balaramapuram", "Chenkal", "Chenkavilai", "Choozhattukotta", "Chowara", "Dalmugham", "Karode", "Karumkulam", "Kottukal", "Kunnathukal", "Kulathoor", "Kuzhithurai", "Mavilakadappuram", "Neyyattinkara", "Ottasekharamangalam", "Pallichal", "Parassala", "Poovar", "Thirupuram", "Vellarada", "Vilappil", "Vellarappally"],
+            Karunagappally: ["Alappad", "Ayanivelikulangara", "Chavara", "Chirakkara", "Clappana", "Kulasekharapuram", "Kunnathur", "Oachira", "Panmana", "Thazhava", "Thodiyoor"],
+            Kottarakkara: ["Kottarakkara", "Mylom", "Ezhukone", "Kottathala", "Kareepra", "Kottukkal", "Veliyam", "Neduvathur", "Kalayapuram", "Valakom", "Puthoor", "Pooyappally", "Chithara", "Kulakkada", "Vettikkavala", " Peringanad", "Pidavoor", "Kunnicode", "Alayamon"],
+            Punalur: ["Alayamon", "Aryankavu", "Edamulackal", "Eroor", "Karavaloor", "Kollamula", "Kulathupuzha", "Mylapra", "Nedumkayam", "Pachilakkad", "Pattazhy", "Pattazhy Vadakkekkara", "Piravanthur", "Punalur", "Thenmala", "Vilakudy", "Valacode"],
+            Adoor: ["Adoor", "Enathu", "Kadampanad", "Kalanjoor", "Kodumon", "Pallickal", "Peringanadu", "Thumpamon", "Vallikode", "Pandanad"],
+            Thiruvalla: ["Eraviperoor", "Kaviyoor", "Kuttoor", "Kunnamthanam", "Maramon", "Muthoor", "Nedumpuram", "Niranam", "Perumpetty", "Podiyadi", "Thiruvalla", "Thottabhagom"],
+            Ranni: ["Angamoozhy", "Athikkayam", "Chethackal", "Chittar", "Kumplampoika", "Kumaramperoor", "Maniyar", "Naranammoozhy", "Perunad", "Ranni", "Ranni-Pazhavangadi", "Ranni-Perunad"],
+            Mallappally: ["Anikkadu", "Keezhvaipur", "Kunnamthanam", "Mallappally", "Murani", "Nedungadappally", "Pallippad", "Puramattom", "Thirumoolapuram", "Vallamkulam"],
+            Chengannur: ["Ala", "Angadickal", "Aranmula", "Chengannur", "Cheriyanadu", "Koipuram", "Mannackanad", "Mulakkuzha", "Pandanad", "Peringanadu", "Puliyoor", "Venmony"],
+            Cherthala: ["Arookutty", "Aryad South", "Kadakkarappally", "Kanjikkuzhy", "Kanichukulangara", "Kumarakom", "Mararikulam North", "Mararikulam South", "Muhamma", "Pallippuram", "Panavally", "Pathirappally", "Pattanakkad", "Thuravoor", "Vayalar"],
+            Haripad: ["Chingoli", "Haripad", "Karuvatta", "Kayamkulam", "Kumarapuram", "Muthukulam", "Pallippad", "Pallipuram", "Pathiyoor", "Thrikkunnapuzha"],
+            Mavelikkara: ["Bharanikkavu", "Chettikulangara", "Chunakkara", "Kandalloor", "Kattanam", "Mavelikkara", "Palamel", "Pallarimangalam", "Peringala", "Thamarakulam", "Thriperumthura"],
+            Kuttanad: ["Champakulam", "Chennamkary", "Edathua", "Kainakary", "Kavalam", "Kumarakom", "Mankombu", "Nedumudi", "Neelamperoor", "Pulincunnu", "Ramankary", "Thalavady", "ThiruvallaVeliyanadu"],
+            Ambalappuzha: ["Ambalappuzha", "Champakulam", "Edathua", "Karumady", "Kavalam", "Komalapuram", "Kunnumma", "Mullakkal", "Nedumudy", "Punnapra", "Purakkad", "Thakazhy", "Thiruvambady"],
+            Changanassery: ["Changanassery", "Chethipuzha", "Kurichy", "Madappally", "Mutholy", "Pallom", "Perunna", "Thrikodithanam", "Vakathanam", "Vazhapally"],
+            Kanjirappally: ["Erumeli", "Kanjirappally", "Koovappally", "Manimala", "Mundakayam", "Parathode", "Ponkunnam", "Vandiperiyar"],
+            Meenachil: ["Aruvithura", "Bharananganam", "Elikkulam", "Kadanad", "Kappumthala", "Kozhuvanal", "Mutholy", "Palai", "Poonjar", "Ramapuram", "Thalappalam", "Uzhavoor"],
+            Vaikom: ["Chempu", "Kaduthuruthy", "Kallara", "Kanakkari", "Kuravilangad", "Mahadevikadu", "Thalayolaparambu", "Udayanapuram", "Vaikom"],
+            Devikulam: ["Anaviratty", "Chinnakanal", "Devikulam", "Munnar", "Pallivasal", "Vellathooval"],
+            Peerumade: ["Ayyappancoil", "Elappara", "Kuttikkanam", "Peerumade", "Santhanpara", "Vagamon"],
+            Udumbanchola: ["Chinnakanal", "Kumily", "Mariyapuram", "Moolamattom", "Nedumkandam", "Pampadumpara", "Rajakumari", "Santhanpara", "Thekkady", "Vandanmedu"],
+            Thodupuzha: ["Adimali", "Edamalakkudy", "Elappara", "Idukki", "Kanchiyar", "Kumaramangalam", "Mankulam", "Moolamattom", "Nadukani", "Thodupuzha"],
+            Aluva: ["Aluva", "Angamaly", "Chowara", "Kalamassery", "Keezhmad", "Kizhakkambalam", "Paravur", "Varapuzha"],
+            Kochi: ["Chellanam", "Elamkunnapuzha", "Ezhikkara", "Kadungalloor", "Kanayannur", "Kumbalangy", "Maradu", "Palluruthy", "Thoppumpady", "Vaduthala"],
+            Kothamangalam: ["Kochukadavanthra", "Kothamangalam", "Kunnathunadu", "Kuttampuzha", "Mudakkuzha", "Nellikuzhi", "Pallarimangalam", "Pindimana"],
+            Muvattupuzha: ["Arakuzha", "Edavetty", "Kizhakkekkara", "Kizhakkenchery", "Marampally", "Muvattupuzha", "Nellikuzhi", "Piravom", "Vazhakulam"],
+            Kunnathunadu: ["Alengad", "Choornikkara", "Kakkanad", "Kizhakkambalam", "Kunnathunadu", "Perumbavoor", "Thiruvaniyoor", "Vengola"],
+
+            Chavakkad: [
+                "Blangad",
+                "Chavakkad",
+                "Kottappadi",
+                "Mullassery",
+                "Punnayur",
+                "Punnayurkulam",
+                "Thalakkottukara",
+                "Vadakkekad",
+                "Vadanappally",
+                "Velur"
+            ],
+            Irinjalakuda: [
+                "Aloor",
+                "Annallur",
+                "Irinjalakuda",
+                "Karalam",
+                "Kattoor",
+                "Kottanellur",
+                "Muriyad",
+                "Porathissery",
+                "Poomangalam",
+                "Puthenchira",
+                "Thrikkur",
+                "Velukkara"
+            ],
+            Kodungallur: [
+                "Ariyannur",
+                "Eriyad",
+                "Kodungallur",
+                "Mathilakam",
+                "Methala",
+                "Poyya",
+                "Sreenarayanapuram",
+                "Thiruvanchikulam"
+            ],
+            Chalakudy: [
+                "Ayyampuzha",
+                "Chalakudy",
+                "Koratty",
+                "Kodassery",
+                "Kunnukara",
+                "Melur",
+                "Meloor",
+                "Muringoor",
+                "Nellayi",
+                "Pariyaram",
+                "Puthenvelikkara"
+            ],
+            "Mukundapuram": [
+                "Aloor",
+                "Amballur",
+                "Chalakudy",
+                "Kodakara",
+                "Koratti",
+                "Mala",
+                "Mattathur",
+                "Nellayi",
+                "Pallipuram",
+                "Puthenchira",
+                "Varandarappilly"
+            ],
+            Chittur: ["Agali", "Anakkara", "Chittur", "Elavanchery", "Kollengode", "Muthalamada", "Nalleppilly", "Nenmara", "Pudunagaram", "Perumatty", "Pattancherry", "Perumatty"],
+            Ottapalam: ["Ananganadi", "Chunangad", "Kanniyampuram", "Kappur", "Karalmanna", "Lakkidi", "Muthuthala", "Ottapalam", "Palappuram", "Paruthipully", "Pattambi", "Sreekrishnapuram", "Thiruvegappura", "Vaniyamkulam"],
+            Palakkad: ["Akathiyoor", "Alathur", "Elappully", "Kodumba", "Mankara", "Malampuzha", "Marutharode", "Moothanthara", "Nallepilly", "Palakkad", "Parli", "Pudussery", "Vadakkencherry"],
+            Alathur: ["Alathur", "Athicode", "Ayilur", "Chittilanchery", "Kannambra", "Kavasery", "Kizhakkencherry", "Kuzhalmannam", "Mudappallur", "Nemmara", "Puducode", "Puthucode", "Puthunagaram", "Tarur", "Vadakkencherry"],
+            Manjeri: ["Angadipuram", "Cherani", "Kavungal", "Manjeri", "Pandikkad", "Pookkottur", "Thrikkalangode", "Vellayur"],
+
+            Nilambur: ["Akampadam", "Amara", "Chungathara", "Karulai", "Mambad", "Nilambur", "Vazhikkadavu", "Edakkara"],
+
+            Perinthalmanna: ["Angadipuram", "Anamangad", "Cherpulassery", "Elamkulam", "Karakunnu", "Kottakkal", "Kudallur", "Malappuram", "Melattur", "Mundakkod", "Puzhakkattiri", "Vettathur"],
+
+            Eranad: ["Areacode", "Cheekode", "Edavanna", "Kannamangalam", "Manjeri", "Melmuri", "Pandikkad", "Perinthalmanna", "Thuvvur", "Vazhakkad"],
+
+            Tirur: ["Athavanad", "Cheriyamundam", "Kalpakancheri", "Kottakkal", "Kuttippuram", "Muthur", "Purathur", "Tanalur", "Tirunavaya", "Tirur", "Triprangode"],
+            Koyilandy: ["Arikkulam", "Chemancheri", "Chelannur", "Koyilandy", "Meppayur", "Moodadi", "Panangad", "Payyoli", "Thikkodi", "Ulliyeri"],
+
+            Vadakara: ["Azhiyur", "Ayancheri", "Eramala", "Kottappally", "Kunnumal", "Maniyur", "Nadapuram", "Nanminda", "Onchiyam", "Orkkatteri", "Purameri", "Thuneri", "Vadakara"],
+            Mananthavady: ["Arattuthara", "Edavaka", "Kaniyambetta", "Karimbil", "Kottathara", "Mananthavady", "Nalloornad", "Panamaram", "Pulpally", "Thavinhal", "Thirunelli", "Thondernad", "Vellamunda"],
+
+            SulthanBathery: ["Ambalavayal", "Cheeral", "Kenichira", "Kidanganad", "Kuppadi", "Mullankolly", "Noolpuzha", "Padichira", "Poothadi", "Sulthan Bathery", "Thovarimala"],
+
+            Vythiri: ["Kunnathidavaka", "Meppadi", "Muttil", "Padinjarathara", "Pozhuthana", "Thariyode", "Thrikkaipetta", "Vythiri"],
+
+            Thalassery: ["Chokli", "Dharmadam", "Eranholi", "Kadirur", "Kaniyambatta", "Kathirur", "Koothuparamba", "Kottayam-Malabar", "Kuttiattoor", "Muzhappilangad", "New Mahe", "Panniyannur", "Pinarayi", "Thalassery"],
+
+            Payyannur: ["Cherupuzha", "Eramam-Kuttoor", "Kuttur", "Karivellur-Peralam", "Korom", "Payyannur", "Perinthatta", "Peralassery", "Pilathara", "Pulingome", "Vellur", "Vannathi", "Vellora"],
+
+            Iritty: ["Ayyankunnu", "Edayannur", "Keezhpally", "Kanichar", "Koloyad", "Koottupuzha", "Kottiyoor", "Manathana", "Payam", "Peravoor", "Thalassery", "Ulikkal", "Vellarvelly"],
+
+
+
